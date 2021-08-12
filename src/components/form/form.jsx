@@ -10,17 +10,17 @@ function Form() {
             </div>
 
             <div className="form-group">
-                <label id="date-label" for="name">Data de Nascimento:</label>
+                <label id="date-label" htmlFor="name">Data de Nascimento:</label>
                 <input id="date" className="form-control" type="date" name="date" required=""></input>
             </div>
 
-            <div>
-                <label id="nameResp-label" for="name">Nome do Responsável pela criança:</label>
+            <div className="form-group">
+                <label id="nameResp-label" htmlForr="name">Nome do Responsável pela criança:</label>
                 <input id="nameResp" className="form-control" type="text" name="name" placeholder="Digite o nome do responsável" required=""></input>
             </div>
 
-            <div>
-                <label id="telResp-label" forLabel="">Telefone de Contato do Responsável pela criança:</label>
+            <div className="form-group">
+                <label id="telResp-label" htmlFor="">Telefone de Contato do Responsável pela criança:</label>
                 <input id="telResp" className="form-control" type="text" name="name" placeholder="Digite o telefone do responsável" required=""></input>
             </div>
 
