@@ -26,9 +26,9 @@ class Form extends React.Component {
                 </div>
 
 
-                {/* <div class="form-group">
+                <div class="form-group">
                     <button id="submit" className="submit-button" type="submit">Enviar</button>
-                </div> */}
+                </div>
             </form>
         );
     }
