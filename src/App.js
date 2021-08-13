@@ -1,27 +1,10 @@
+import './index.css';
 import './App.css';
-import Form from './components/form/form';
-import "../src/components/form/form.css"
+import Homepage from './pages/Homepage/Homepage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Cadastro de Aluno</h1>
-        <Form/>
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
-    </div>
+    <Homepage/>
   );
 }
 
