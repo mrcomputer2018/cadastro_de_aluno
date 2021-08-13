@@ -25,6 +25,17 @@ class Form extends React.Component {
                     <input id="telResp" className="form-control" type="text" name="name" placeholder="Digite o telefone do responsável" required=""></input>
                 </div>
 
+                <div className="form-group">
+                    <label id="avisarResp-label" htmlFor="">Em caso de emergência avisar:</label>
+                    <input type="checkbox" id="pais" name="parentesco" value="pais"></input>
+                    <label for="pais">Pais</label>
+                    <input type="checkbox" id="tios" name="parentesco" value="tios"></input>
+                    <label for="tios">Tios</label>
+                    <input type="checkbox" id="avos" name="parentesco" value="avos"></input>
+                    <label for="avos">Avós</label>
+                    <input type="checkbox" id="padrinhos" name="parentesco" value="padrinhos"></input>
+                    <label for="avos">Padrinhos</label>
+                </div>
 
                 <div class="form-group">
                     <button id="submit" className="submit-button" type="submit">Enviar</button>
