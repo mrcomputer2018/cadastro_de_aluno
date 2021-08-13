@@ -16,12 +16,12 @@ class Form extends React.Component {
                 </div>
 
                 <div className="form-group">
-                    <label id="nameResp-label" htmlForr="name">Nome do Responsável pela criança:</label>
+                    <label id="nameResp-label" htmlForr="name">Nome do Responsável:</label>
                     <input id="nameResp" className="form-control" type="text" name="name" placeholder="Digite o nome do responsável" required=""></input>
                 </div>
 
                 <div className="form-group">
-                    <label id="telResp-label" htmlFor="">Telefone de Contato do Responsável pela criança:</label>
+                    <label id="telResp-label" htmlFor="">Telefone de Contato do Responsável:</label>
                     <input id="telResp" className="form-control" type="text" name="name" placeholder="Digite o telefone do responsável" required=""></input>
                 </div>
 
