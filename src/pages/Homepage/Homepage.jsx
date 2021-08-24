@@ -1,15 +1,17 @@
 import React from "react"
-import Header from "../../components/Header/Header";
 import Form from "../../components/Form/Form";
+import Cadastro from "../Cadastro/Cadastro";
+import Consulta from "../Consulta/Consulta";
 import "./Homepage.css"
+
 
 class Homepage extends React.Component {
     render() {
         return (
-            <>
-                <Header/>
-                <Form/>
-            </>
+            <div>
+                <Cadastro />
+                <Consulta />
+            </div>
         )
     }
 }

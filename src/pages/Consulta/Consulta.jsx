@@ -6,12 +6,12 @@ class Consulta extends React.Component {
         super(props);
         this.state = {  }
     } 
-
+ 
     render () {
         return (
-            <>
-                <Header/>
-            </>
+            <div>
+                <Header titulo="Consulta"/>
+            </div>
         )
     }
 }

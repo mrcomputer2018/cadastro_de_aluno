@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "../../components/Header/Header";
+import Form from "../../components/Form/Form";
 class Cadastro extends React.Compoonent {
     constructor(props) {
         super(props);
@@ -8,9 +9,10 @@ class Cadastro extends React.Compoonent {
 
     render() {
         return (
-            <>
-                <Header/>
-            </>
+            <div>
+                <Header titulo="Cadastro"/>
+                <Form />
+            </div>
         )
     }
 }
