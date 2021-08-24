@@ -1,5 +1,4 @@
 import React from "react"
-import Form from "../../components/Form/Form";
 import Cadastro from "../Cadastro/Cadastro";
 import Consulta from "../Consulta/Consulta";
 import "./Homepage.css"

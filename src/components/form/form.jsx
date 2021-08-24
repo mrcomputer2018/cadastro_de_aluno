@@ -11,12 +11,12 @@ class Form extends React.Component {
                 </div>
 
                 <div className="form-group">
-                    <label id="date-label" htmlFor="name">Data de Nascimento:</label>
+                    <label id="date-label" htmlFor="date">Data de Nascimento:</label>
                     <input id="date" className="form-control" type="date" name="date" required=""></input>
                 </div>
 
                 <div className="form-group">
-                    <label id="nameResp-label" htmlFor="name">Nome do Responsável:</label>
+                    <label id="nameResp-label" htmlFor="nameResp">Nome do Responsável:</label>
                     <input id="nameResp" className="form-control" type="text" name="name" placeholder="Digite o nome do responsável" required=""></input>
                 </div>
 

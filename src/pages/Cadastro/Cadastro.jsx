@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../../components/Header/Header";
-import Form from "../../components/Form/Form";
-class Cadastro extends React.Compoonent {
+import Form from "../../components/form/Form"
+class Cadastro extends React.Component {
     constructor(props) {
         super(props);
         this.state = {  }
