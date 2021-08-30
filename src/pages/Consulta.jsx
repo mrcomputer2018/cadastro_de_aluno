@@ -1,6 +1,6 @@
 import React from "react"
-import Header from "../../components/Header/Header";
-import Ul from "../../components/List/Ul"
+import Header from "../components/Header";
+import Ul from "../components/List/Ul"
 class Consulta extends React.Component {
     constructor(props) {
         super(props);

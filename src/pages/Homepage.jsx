@@ -1,10 +1,10 @@
-import React from "react"
-import Cadastro from "../Cadastro/Cadastro";
-import Consulta from "../Consulta/Consulta";
+import React, { Component } from "react"
+import Cadastro from "./Cadastro";
+import Consulta from "./Consulta";
 import "./Homepage.css"
 
 
-class Homepage extends React.Component {
+class Homepage extends Component {
     render() {
         return (
             <div>
